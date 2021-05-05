@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet"> 
+    <title>Página Innovacion</title>
+</head>
+
+<body>
+
+    <div class="o-header">
+        <img src="../src/Logo bio.JPG" class="o-image-logo">
+        <div class="o-user-login">
+                <div class="o-image-user">
+                    <button class="o-button">Ingresar</button>
+                    <img src="../src/user.svg" class="o-img">
+                </div>
+            <button class="o-button">Registrarse</button>
+        </div>
+    </div>
+
+    <div class="topnav">
+        <a class="active" href="#inicio">Inicio</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">Acerca de Nosotros +
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Nuestra Empresa</a>
+              <a href="#">Misión</a>
+              <a href="#">Visión</a>
+              <a href="#">Comunidad</a>
+            </div>
+        </div> 
+
+        <div class="dropdown">
+            <button class="dropbtn">Información Canales Maritimos +
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Informate</a>
+            </div>
+          </div> 
+
+        <a href="#tecser">Tecnologia y servicios</a>
+
+        <a href="#contact">Contacto</a>
+
+    </div> 
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 2</div>
+            <img src="../src/Image1.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 2</div>
+            <img src="../src/Image2.png" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+    <div class="o-card-container">
+
+        <div class="o-card">
+            <img class="o-img-1" src="../src/icon1.png">
+            <h4>Desarrollo Sostenible</h4>
+        </div>
+
+        <div class="o-card">
+            <img class="o-img-1" src="../src/icon2.png">
+            <h4>Recoleción de Datos</h4>
+        </div>
+
+        <div class="o-card">
+            <img class="o-img-1" src="../src/icon3.png">
+            <h4>Opciones de Inscripción</h4>
+        </div>
+
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
